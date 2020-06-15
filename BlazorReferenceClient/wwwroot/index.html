@@ -28,7 +28,7 @@
 					case 'timezonedata':
 						var cdnUrl = 'https://cdn.statically.io/gh/SQL-MisterMagoo/BlazorReferenceClient/5cbf00d8/BlazorReferenceClient/publish/wwwroot/_framework/wasm';
 						console.log(`Will load '${type}' with name '${name}' from URI '${cdnUrl}' and integrity '${integrity}'`);
-						return `${cdnUrl}/${name}.gz`;
+						return `${cdnUrl}/${name}`;
 					default:
 						console.log(`Will load '${type}' with name '${name}' from URI '${defaultUri}' and integrity '${integrity}'`);
 				}
